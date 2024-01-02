@@ -1,0 +1,213 @@
+@media screen and (max-width: 1000px) {
+
+/*-----------------------------------------------------RESPONSIVE DESIGN---------------------------------------------------------*/
+* {
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+/*------------------------- HEADER ----------------------------- */
+.header {
+    width: 100%;
+    height: 90vw;
+    margin: auto;
+}
+
+.header-img {
+    margin-top: 1.3vw;
+    width: 15vw;
+    height: auto;
+    position: absolute;
+    top: 10vw;
+    left: 13vw;
+}
+
+.header-h1 {
+    display: block;
+    text-align: center;
+    padding: 8vw 0vw 5vw 15vw;
+}
+
+.header-ul li {
+    margin: 2vw 2vw;
+    text-align: center;
+    font-size: 4vw;
+    padding: 8vw 0vw;
+    display: block;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.726);
+    border-radius: 1vw;
+    color: white;
+}
+
+.links-nav {
+    color: white;
+    text-decoration: none;
+}
+
+/*------------------------- SECTION ----------------------------- */
+
+.section {
+    margin-top: 3vw;
+    background-image: url(pictures/background-1.png);
+    background-size: 140vw auto;
+    background-repeat: no-repeat;
+    background-position-x: 20vw;
+    background-position-y: 0vw;
+    height: 100%;
+    width: 100%;
+}
+
+/*------------------------- ARTICLE1 ----------------------------- */
+
+.article1 {
+    padding-top: 15vw;
+    width: 55%;
+    font-size: 4vw;
+    margin: 12vw 0vw 15vw 7vw;
+    text-align: center;
+}
+
+/*------------------------- ARTICLE2 ----------------------------- */
+
+.article2 {
+    width: 100%;
+    height: 140vw;
+}
+
+.article2-h2 {
+    text-align: center;
+    font-size: 6vw;
+    padding: 10vw 0vw 8vw 0vw;
+}
+
+.article2-galeria {
+    display: flex;
+    width: 80%;
+    height: 100vw;
+    margin: auto;
+    justify-content:space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.article2-galeria img {
+    width: 30vw;
+    border-radius: 1vw;
+}
+
+/*------------------------- ARTICLE3 ----------------------------- */
+
+.article3 {
+    width: 100%;
+    height: 80vw;
+    padding: 6vw 0vw;
+}
+
+.article3-h3 {
+    font-size: 6vw;
+    text-align: center;
+    padding: 5vw 0vw 5vw 0vw;
+}
+
+.caja-video {
+    text-align: center;
+}
+
+.article3-video img {
+    width: 80vw;
+    border-radius: 1vw;
+}
+
+/*------------------------- ASIDE ----------------------------- */
+
+.aside {
+    padding: 1vw;
+    margin-top: 15vw;
+    height: 70vw;
+}
+
+.aside-h4 {
+    font-size: 6vw;
+    text-align: center;
+}
+
+.aside-ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.aside-ul li {
+    margin: 1vw 0vw;
+    padding: 1vw 0vw;
+    font-size: 4vw;
+}
+
+/*------------------------- FOOTER ----------------------------- */
+
+.footer {
+    height: 10vw;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.footer-barra {
+    width: 70%;
+    height: 100%;
+    border-top: 0.5vw solid rgba(0, 0, 0, 0.452);
+    margin: auto;
+}
+
+.footer-ul {
+    margin-top: 1vw;
+    list-style: none;
+    text-align: center;
+    font-size: 4vw;
+}
+
+.footer-ul li {
+    padding: 0vw 1.5vw;
+}
+
+.links {
+    color: rgba(0, 0, 0, 0.719);
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 1vw;
+}
+
+.links:visited {
+    color: rgba(0, 0, 0, 0.719);
+}
+
+#link1 {
+    margin-right: 0vw;
+}
+
+#link2 {
+    margin-left: 0vw;
+}
+
+#link3 {
+    display: block;
+    margin-top: 3vw;
+    padding: 1vw 0vw;
+    background-color: rgba(0, 0, 0, 0.178);
+}
+
+#link1, #link2 {
+    display: inline-block;
+    margin-top: 1vw;
+}
+
+}
+@media screen and (max-width: 330px) {
+    .header-img {
+        margin-top: 1.3vw;
+        width: 15vw;
+        height: auto;
+        position: absolute;
+        top: 12vw;
+        left: 10vw;
+    }
+}
